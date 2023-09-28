@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules.md",
+                "file": "Boolean.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modules.md",
+                "file": "Boolean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modules.md",
+                "file": "Boolean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modules.md"
+                "file": "Boolean.md"
               }
             }
           },
@@ -179,14 +179,16 @@
   },
   "active": "9f758ad869cb3ea0",
   "lastOpenFiles": [
-    "1 - Natural Language Processing.md",
-    "Modules.md",
+    "Conditionals.md",
+    "Boolean.md",
     "Lists.md",
+    "Strings.md",
+    "Modules.md",
+    "Markdown (Re)Introduction.md",
+    "1 - Natural Language Processing.md",
     "Design.md",
     "warmup_1.py",
     "chatbot.py",
-    "Markdown (Re)Introduction.md",
-    "Strings.md",
     "2023-09-21.md"
   ]
 }
