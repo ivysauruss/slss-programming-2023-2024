@@ -73,3 +73,48 @@ for name in names:
 	if name == "Jasmine Soto":
 		print("We found her!")
 ```
+
+# Iterating *n* Number of Times
+
+We can iterate/loop for any number of times. 
+In Python, we do it in a *strange* way. 
+
+```python
+for <name> in range(<some positive number>):
+	<code block>
+```
+
+e.g. 
+
+```python
+# Prints out Mr. Ubial is cool. ten times
+for _ in range(10):
+	print("Mr.Ubial is cool.")
+```
+
+Recall that when we iterate over lists, the `item` tells us the current element we are on. 
+
+When we iterate using `range()`, the `item` tells us how many times we've looped since the beginning. 
+
+For example, we can leverage this in the way below:
+
+```python
+for i in range(5):
+	print(i)
+```
+
+# `range(<number>)`
+
+`range()` is a function that gives you a sequence of numbers starting at 0 by default. By default it also goes up by 1. It stops right before the number that we provide as input. 
+
+```python
+range(100)  # Sequence(0, 1, 2, ..., 99)
+```
+
+We can modify `range()` to start, stop, and count up/down by different numbers.
+
+```python
+range(<stop>)
+range(<start>,<stop>)
+range(<start>,<stop>, <step>)
+```
