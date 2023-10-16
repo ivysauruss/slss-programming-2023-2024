@@ -118,3 +118,11 @@ range(<stop>)
 range(<start>,<stop>)
 range(<start>,<stop>, <step>)
 ```
+
+e.g. 
+```python
+range(0,100)  # Sequence(0, 1, 2, ..., 99)
+range(-10, 10) # Sequence(-10, -9, -8, ..., 9)
+range(0, 100, 2) # Sequence (0, 2, 4, ..., 98)
+range(100, 0, -1) # Sequence (100, 99, 98, ..., 1)
+```
