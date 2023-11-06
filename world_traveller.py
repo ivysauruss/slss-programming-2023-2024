@@ -14,5 +14,5 @@ for continent in continents:
     else: 
         break
 
-
+print(f"{tally_continent} /7")
               
