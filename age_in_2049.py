@@ -2,6 +2,8 @@
 # Author 
 # 2 November 2023
 
+# Added robustness to code (instead of assuming year as 2023
+
 year = int(input("What year is it currently? "))
 age = int(input("How old are you? "))
 
