@@ -2,6 +2,8 @@
 # Author: Alissa Xu
 # Date created: 6 November 2023
 
+# Ask for courses in the semester, then the rating 
+
 number_of_courses = int(input("How many courses are you taking? "))
 total_rating = 0
 
@@ -17,4 +19,6 @@ elif 1 < average < 3:
     print(f"{average}? Not a bad semester.")
 else: 
     print(f"{average}? Glad to hear that!")
-                    
+
+
+
