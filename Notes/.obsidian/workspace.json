@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Type.md",
+                "file": "2 - Reccomendation Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Type.md",
+                "file": "2 - Reccomendation Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Type.md",
+                "file": "2 - Reccomendation Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Type.md"
+                "file": "2 - Reccomendation Systems.md"
               }
             }
           },
@@ -213,9 +213,9 @@
   },
   "active": "56853511f0bcc3b6",
   "lastOpenFiles": [
+    "Type.md",
     "fave_bubble_tea.py",
     "numbers_practice.py",
-    "Type.md",
     "Lists.md",
     "Iteration.md",
     "loop_practice.py",
