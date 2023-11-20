@@ -39,14 +39,21 @@ with open("./data_example.csv" , encoding="utf-8") as f:
 # Problem 3:
 # If you've made it this far, well done. Next task:
 # Convert that line of data into a list.
+with open("./data_example.csv" , encoding="utf-8") as f:
+    header = f.readline()
 
-    list = []
+    for line in f: 
+        print(line.strip().split(","))
 # Problem 4:
 # Give yourself a pat on the back.
 # See if you can count how many people like "Chicken Adobo" as their
 # favourite food.
+    profile = [
+        "chicken adobo"
+    ]
 
-
+    for item in profile: 
+        if item in 
 # Problem 5:
 # You should have gotten four people for the last problem. If not,
 # see if why your code doesn't work.
