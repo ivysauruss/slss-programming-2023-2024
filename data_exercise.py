@@ -52,8 +52,11 @@ with open("./data_example.csv" , encoding="utf-8") as f:
         "chicken adobo"
     ]
 
+    chicken = 0
+
     for item in profile: 
-        if item in 
+        if item in profile == "chicken adobo":
+            chicken += 1
 # Problem 5:
 # You should have gotten four people for the last problem. If not,
 # see if why your code doesn't work.
