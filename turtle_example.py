@@ -16,13 +16,15 @@ print("""To give commands, type:
 F - to go forward 
 L - to go left
 R - to go right
-B - to go back""")
+B - to go back
+Stop - to stop""")
 
 # Repeat the below code INDEFINITELY
 done = False
 
 while not done:
     command = input("Where should I go? ").strip(",.?! ").lower()
+    # If the user says stop, quit the loop
 
 
     # Based on those instructions, move the turtle on the screen
@@ -34,6 +36,6 @@ while not done:
         michaelangelo.right(90)
     elif command in ["b", "backward"]:
         michaelangelo.backward(TURTLE_MAGNITUDE)
+    elif command == "stop": 
+        done = True
 
-
-turtle.done()
