@@ -19,6 +19,7 @@ def make_cookie(x: int, y: int):
     baker_turtle.color("brown")
     baker_turtle.penup()
     baker_turtle.goto(-5 + x, -30 + y)
+    baker_turtle.pendown()
     baker_turtle.circle(30)
     baker_turtle.penup()
 
