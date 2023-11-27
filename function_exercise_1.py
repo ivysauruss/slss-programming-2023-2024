@@ -15,5 +15,5 @@ def stars(number: int) -> None:
     for i in range(number):
         print("*")
 
-stars(3)
+stars(5)
 
