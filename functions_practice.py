@@ -1,5 +1,5 @@
 # Functions Practice
-# Author: Ubial
+# Author: Alissa Xu
 # 24 November 2023
 
 
@@ -31,18 +31,65 @@ def area_of_a_square(sidelength: float) -> float:
     return area
 
 
-def stars(num_stars: int) -> str:
-    """"""
-
-    return
-
-
-stars(2)  #   **
-stars(10)  #   **********
-
 print_area_of_a_square(12.2)
 print_area_of_a_square(13)
 # sum_areas = area_of_a_square(12.2) + area_of_a_square(13)
 print(area_of_a_square(2))
 
 print(print_area_of_a_square(2))
+
+def stars(number: int) -> str:
+    """Returns a string of stars of given length"""
+
+    return "*" * number
+
+print(stars(5))
+
+def biggest_of_three(number1: int, number2: int, number3: int) -> None:
+    """Finds the biggest number out of the three
+    Result is an integer.
+
+    Params: 
+    
+    number1 - the first number
+    number2 - the second number
+    number3 - the third number
+
+    """
+    
+
+    if number1 > number2 and number1 > number3:
+        return number1
+    elif number2 > number1 and number2 > number3:
+        return number2
+    else: 
+        return number3
+
+
+print(biggest_of_three(3,77,17))
+
+def pyramid(num_layers: int) -> None: 
+    """Print out a pyramid of given number of layers.
+    
+    Params: 
+    num_layers - number of layers in the pyramid
+    """
+
+    for current_layer in range(1, num_layers + 1):
+        print(stars(current_layer))
+
+def pyramid_mirror(num_layers: int) -> None:
+    """Print a pyramid mirrored of given number of layers. 
+    
+    Params: 
+    num_layers - number of layers in the pyramid
+    """
+
+    for current_layer in range(1, num_layers + 1):
+        # Spaces is equal to total num of layers minus the stars in the current layer
+        spaces = " " * (num_layers - current_layer)
+        print(spaces + stars(current_layer))
+
+pyramid_mirror(2)
+pyramid_mirror(3)
+pyramid_mirror(20)

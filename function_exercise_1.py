@@ -2,18 +2,10 @@
 # Author: Alissa Xu
 # Date created: 27 November 2023
 
-def stars(number: int) -> None:
-    """Creates stars based on the argument
-    Results in integer.
+def stars(number: int) -> str:
+    """Returns a string of stars of given length"""
 
-    Params: 
-    
-    number - number of stars created"""
+    return "*" * number
 
-    starnumber = number
-
-    for i in range(number):
-        print("*")
-
-stars(5)
+print(stars(5))
 
