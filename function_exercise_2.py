@@ -2,7 +2,7 @@
 # Author: Alissa Xu
 # Date created: 27 November 2023
 
-def biggest_number(number1: int, number2: int, number3: int) -> None:
+def biggest_of_three(number1: int, number2: int, number3: int) -> None:
     """Finds the biggest number out of the three
     Result is an integer.
 
@@ -16,12 +16,11 @@ def biggest_number(number1: int, number2: int, number3: int) -> None:
     
 
     if number1 > number2 and number1 > number3:
-        maxnumber = number1
+        return number1
     elif number2 > number1 and number2 > number3:
-        maxnumber = number2
+        return number2
     else: 
-        maxnumber = number3
+        return number3
 
-    print(maxnumber)
 
-biggest_number(3,77,17)
+print(biggest_of_three(3,77,17))
