@@ -61,6 +61,6 @@ alfred_river_wilson.color("brown")
 alfred_river_wilson.shape("arrow")
 alfred_river_wilson.speed(3)
 
-draw_tree(0,150)
+draw_tree(6,150)
 
 turtle.done

@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Reccomendation Systems.md",
+                "file": "Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Reccomendation Systems.md",
+                "file": "Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Reccomendation Systems.md",
+                "file": "Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Reccomendation Systems.md"
+                "file": "Functions.md"
               }
             }
           },
@@ -213,13 +213,17 @@
   },
   "active": "56853511f0bcc3b6",
   "lastOpenFiles": [
+    "functions_practice.py",
     "Type.md",
+    "Strings.md",
+    "quiz1_practice.md",
+    "Functions.md",
+    "2 - Reccomendation Systems.md",
     "fave_bubble_tea.py",
     "numbers_practice.py",
     "Lists.md",
     "Iteration.md",
     "loop_practice.py",
-    "Strings.md",
     "food_suggestion_bot.py",
     "Errors.md",
     "Boolean.md",
