@@ -28,3 +28,26 @@ def area_of_a_square(sidelength: float):
 area_of_a_square(12.2)  # 12.2 is the argument
 
 ```
+
+## Recursion
+
+Recursion is an elegant way to repeat a pattern. 
+
+Fractals are examples of patterns that can be described recursively.
+
+A recursive **function** must have three parts: 
+
+1. A *function*.
+2. Somewhere in the body code block, the function should call itself. 
+3. A base case. This is where the function STOPS CALLING itself.
+
+## Factorials and Recursion
+
+``` 
+0! = 1
+1! = 1
+
+2! = 1 * 2
+2! = 1! * 2 
+
+```
