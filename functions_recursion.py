@@ -1,6 +1,9 @@
-# Functions and REcursion 
+# Functions and Recursion 
 # Author: Alissa Xu
 # 7 December 2023
+
+
+import time 
 
 def factorial(n: int) -> int:
     """Return the nth factorial.
@@ -26,5 +29,31 @@ def fib(n: int) -> int:
     elif n > 2:
         return fib(n - 1) + fib(n - 2)
     
-print(fib(20))
+def fib_itr(n: int) -> int:
+    """Returns the nth Fibonacci number. 
+    Calculated iteratively."""
+    last_num = 0
+    num = 1
+    result = 1
 
+    for i in range(n - 1):
+        result = num + last_num
+        
+        num, last_num = result, num
+
+    return result
+        
+    
+print(fib(20), fib_itr(20))
+
+time_initial = time.perf_counter()
+fib(20)
+time_final = time.perf_counter()
+
+print(f"Recursive: {time_final - time_initial}")
+
+time_initial_ = time.perf_counter()
+fib_itr(20)
+time_final_ = time.perf_counter()
+
+print(f"Iterative: {time_final_ - time_initial_}")
