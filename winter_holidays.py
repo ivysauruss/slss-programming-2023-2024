@@ -45,4 +45,4 @@ def winter_holiday(good_or_bad: str) -> str:
 winter_holiday("bad")
     
 
-
+# Chatgpt for problem solving
