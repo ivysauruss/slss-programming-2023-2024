@@ -27,3 +27,11 @@ for y in range(jelly_bean_img.height):
             red_pixels.append((x, y))
 
 print(red_pixels)
+
+# Count all locations of red pixels 
+red_pixel_count = len(red_pixels)
+total_pixels = jelly_bean_img.width * jelly_bean_img.height
+
+# Divide by the total pixels in the image
+red_pixel_percentage = red_pixel_count / total_pixels * 100
+print(f"{red_pixel_percentage}%")
