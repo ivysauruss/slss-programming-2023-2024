@@ -40,15 +40,22 @@ orig_image_width = jelly_bean_img.width
 orig_image_height = jelly_bean_img.height
 
 green_pixel_map = Image.new("RGB", (orig_image_width, orig_image_height))
+red_pixel_map = Image.new("RGB", (orig_image_width, orig_image_height))
 
 # For every pixel location in the red_pixels list
 # Place a red pixel at that location
 for pixel_loc in green_pixels:
     green_pixel_map.putpixel(pixel_loc, GREEN_PIXEL)
 
+for pixel_loc in red_pixels: 
+    red_pixel_map.putpixel(pixel_loc, RED_PIXEL)
+
 # Save the image
 green_pixel_map.save("./Images/green_pixel_map.jpg")
 green_pixel_map.close()
+
+red_pixel_map.save("./Images/red_pixel_map.jpg")
+red_pixel_map.close()
 
 # Count all the locations of red pixels
 red_pixel_count = len(red_pixels)
