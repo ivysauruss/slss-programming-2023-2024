@@ -14,13 +14,15 @@ def pixel_to_name(pixel: tuple) -> str:
     """
     red, green, blue = pixel
 
-    # TODO: detect jelly bean green
+    # To do: detect jelly bean green
     if red < 200 and blue < 200 and green > 220:
         return "green"
     elif red > 170 and green < 60 and blue < 60:
         return "red"
     elif red < 60 and green > 80 and blue < 60:
         return "jelly bean green"
+    elif red > 250 and green > 200 and blue < 100:
+        return "yellow"
     else:
         return "colour unknown"
 
