@@ -82,5 +82,5 @@ yellow_pixel_pencentage = yellow_pixel_count / total_pixels * 100
 # Generate the report
 print(f"Red Jelly Beans: {round(red_pixel_percentage, 2)}%")
 print(f"Green Jelly Beans: {round(green_pixel_percentage, 2)}%")
-print(f"Yellow Jelly Beans: {round(green_pixel_percentage, 2)}%")
+print(f"Yellow Jelly Beans: {round(yellow_pixel_pencentage, 2)}%")
 jelly_bean_img.close()
